@@ -1,5 +1,8 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: caycehouse/my-ublue
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: startingpoint
+      - label: bazzite-nvidia
+        info: Bazzite
+      - label: kinoite-nvidia
+        info: KDE
