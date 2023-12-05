@@ -11,3 +11,11 @@ install:
   - tealdeer
   - telnet
   - zsh
+
+  # @virtualization group
+  - virt-install
+  - libvirt-daemon-config-network
+  - libvirt-daemon-kvm
+  - qemu-kvm
+  - virt-manager
+  - virt-viewer
