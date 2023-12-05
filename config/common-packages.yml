@@ -1,4 +1,13 @@
 type: rpm-ostree
-repos:
 install:
-remove:
+  - bat
+  - eza
+  - gh
+  - htop
+  - info
+  - neofetch
+  - prettyping
+  - shellcheck
+  - tealdeer
+  - telnet
+  - zsh

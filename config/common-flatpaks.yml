@@ -1,0 +1,10 @@
+type: default-flatpaks
+system:
+  install:
+    - com.discordapp.Discord # Discord
+    - com.github.tchx84.Flatseal # Flatseal
+    - com.parsecgaming.parsec # Parsec
+    - com.valvesoftware.Steam # Steam
+    - com.visualstudio.code # VSCode
+    - io.github.shiftey.Desktop # Github Desktop
+    - us.zoom.Zoom # Zoom
