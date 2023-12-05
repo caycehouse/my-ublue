@@ -2,9 +2,12 @@ type: default-flatpaks
 system:
   install:
     - com.discordapp.Discord # Discord
+    - com.github.IsmaelMartinez.teams_for_linux # Microsoft Teams
     - com.github.tchx84.Flatseal # Flatseal
     - com.parsecgaming.parsec # Parsec
     - com.valvesoftware.Steam # Steam
     - com.visualstudio.code # VSCode
+    - io.github.mahmoudbahaa.outlook_for_linux # Microsoft Outlook
     - io.github.shiftey.Desktop # Github Desktop
+    - sh.cider.Cider # Cider (Apple Music client)
     - us.zoom.Zoom # Zoom
