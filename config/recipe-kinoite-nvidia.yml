@@ -14,5 +14,5 @@ modules:
   - from-file: kinoite-packages.yml
   - from-file: common-packages.yml
   - from-file: common-bling.yml
-  - from-file: kinoite-scripts.yml
+  - from-file: kinoite-systemd.yml
   - from-file: common-scripts.yml
