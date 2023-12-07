@@ -46,7 +46,7 @@ To rebase an existing Silverblue/Kinoite installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/caycehouse/my-ublue:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/caycehouse/silverblue-nvidia:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -54,7 +54,7 @@ To rebase an existing Silverblue/Kinoite installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/caycehouse/my-ublue:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/caycehouse/silverblue-nvidia:latest
   ```
 - Reboot again to complete the installation
   ```
@@ -64,7 +64,7 @@ To rebase an existing Silverblue/Kinoite installation to the latest build:
 This repository builds date tags as well, so if you want to rebase to a particular day's build:
 
 ```
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/caycehouse/my-ublue:20230403
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/caycehouse/silverblue-nvidia:20230403
 ```
 
 This repository by default also supports signing.
@@ -73,7 +73,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-This template includes a simple Github Action to build and release an ISO of your image. 
+This template includes a simple Github Action to build and release an ISO of your image.
 
 To run the action, simply edit the `boot_menu.yml` by changing all the references to startingpoint to your repository. This should trigger the action automatically.
 

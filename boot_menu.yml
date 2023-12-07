@@ -4,5 +4,5 @@ ublue_variants:
     flavors:
       - label: bazzite-nvidia
         info: Bazzite
-      - label: kinoite-nvidia
-        info: KDE
+      - label: silverblue-nvidia
+        info: Gnome

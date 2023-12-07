@@ -40,7 +40,7 @@ jobs:
         # Don't add module configuration files, you will get errors.
         recipe:
           - recipe-bazzite-nvidia.yml
-          - recipe-kinoite-nvidia.yml
+          - recipe-silverblue-nvidia.yml
 # !!!
 
     steps:
