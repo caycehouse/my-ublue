@@ -1,4 +1,4 @@
-!include 100-bling.just
+import '100-bling.just'
 # Include some of your custom scripts here!
 
 # Enable tpm2 LUKS auto-decryption via systemd-cryptenroll
