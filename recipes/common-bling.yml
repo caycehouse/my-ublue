@@ -1,5 +1,3 @@
----
-# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: bling # configure what to pull in from ublue-os/bling
 install:
   - ublue-update # https://github.com/ublue-os/ublue-update
