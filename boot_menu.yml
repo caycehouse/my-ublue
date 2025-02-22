@@ -1,8 +1,0 @@
-ublue_variants:
-  - label: caycehouse/my-ublue
-    ks: /kickstart/ublue-os.ks
-    flavors:
-      - label: bazzite-nvidia
-        info: Bazzite
-      - label: silverblue-nvidia
-        info: Gnome
